@@ -4,7 +4,7 @@ A modern, full-stack machine learning project featuring a high-accuracy CNN trai
 
 ![Project Overview](https://raw.githubusercontent.com/lucide-react/lucide/main/icons/brain-circuit.svg)
 
-## 🚀 Overview
+## Overview
 
 This project demonstrates the end-to-end lifecycle of a machine learning application:
 1.  **Training**: A Convolutional Neural Network (CNN) achieving **99.2%+ accuracy** on the MNIST dataset.
@@ -12,7 +12,7 @@ This project demonstrates the end-to-end lifecycle of a machine learning applica
 3.  **Web Interface**: A responsive Next.js application that allows users to draw digits and see real-time predictions.
 4.  **Visualization**: A custom-built SVG engine that visualizes "neural flow" and activations across the network layers.
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 graph TD
@@ -27,19 +27,19 @@ graph TD
 
 For more details, see [ARCHITECTURE.md](./ARCHITECTURE.md).
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Machine Learning**: PyTorch, Torchvision, ONNX, TensorFlow.js
 - **Frontend**: Next.js 15+, TypeScript, Tailwind CSS, Framer Motion
 - **Icons & UI**: Lucide React, Custom SVG Components
 
-## 📦 Project Structure
+## Project Structure
 
 - `/training`: PyTorch training scripts and model export logic.
 - `/web`: Next.js web application.
 - `/data`: (Gitignored) MNIST dataset raw files.
 
-## 🚦 Quick Start
+## Quick Start
 
 ### Web Frontend
 ```bash
@@ -56,7 +56,7 @@ python train.py
 python export.py
 ```
 
-## 📖 Detailed Documentation
+## Detailed Documentation
 
 - [**Architecture & Design**](./ARCHITECTURE.md) - Deep dive into the CNN and visualization logic.
 - [**Training Guide**](./TRAINING.md) - Technical details on the model training process.
@@ -64,4 +64,3 @@ python export.py
 
 ---
 
-Built with ❤️ by Antigravity.
