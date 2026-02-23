@@ -55,6 +55,10 @@ data/mnist/
 model.json
 group*-shard*of*
 
+# Allow web model files for deployment
+!web/public/model/*.json
+!web/public/model/*.bin
+
 # Artifacts & System Generated
 .gemini/
 .system_generated/
